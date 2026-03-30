@@ -1,0 +1,2 @@
+fastapi # API Framework
+google-generativeai # AI Client - Gemini LLM
