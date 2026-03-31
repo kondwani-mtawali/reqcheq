@@ -19,7 +19,8 @@ class EventSchema(BaseModel):
 
 # Data Process --> OpenAI integration would go here
 # Consider asynchronous function
-@router.post("/", dependencies=[])
+# Test this function --> request.py
+@router.post("/", dependencies=[]) # HTTP Post Request to receive user data
 def handle_event( 
     data: EventSchema,
 ) -> Response:
